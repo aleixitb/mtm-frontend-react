@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/mtm-frontend-react/static/css/main.c2cab247.css",
-    "main.js": "/mtm-frontend-react/static/js/main.33b50b50.js",
-    "static/media/flork_icon.png": "/mtm-frontend-react/static/media/flork_icon.6484b08a4934c5e1190a.png",
+    "main.js": "/mtm-frontend-react/static/js/main.eb5576df.js",
     "index.html": "/mtm-frontend-react/index.html",
     "main.c2cab247.css.map": "/mtm-frontend-react/static/css/main.c2cab247.css.map",
-    "main.33b50b50.js.map": "/mtm-frontend-react/static/js/main.33b50b50.js.map"
+    "main.eb5576df.js.map": "/mtm-frontend-react/static/js/main.eb5576df.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.33b50b50.js"
+    "static/js/main.eb5576df.js"
   ]
 }
