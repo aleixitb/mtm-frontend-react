@@ -8,7 +8,6 @@ class Header extends React.Component {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src={logo} alt="Bootstrap" width="70" height="70"></img>
                         Mama task me
                     </a>
                 </div>
