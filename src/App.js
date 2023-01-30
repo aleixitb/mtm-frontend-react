@@ -1,15 +1,23 @@
 import Sidebar from "./Sidebar";
 import Header from "./Header"
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Sidebar />
-      </main>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <header>
+              <Header />
+            </header>
+            <main>
+              <Sidebar />
+            </main>
+          </>
+        }
+        />
+      </Routes>
     </>
   );
 }
