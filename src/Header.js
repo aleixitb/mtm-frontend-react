@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./assets/flork_icon.png";
 
 class Header extends React.Component {
     render() {
