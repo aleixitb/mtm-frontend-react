@@ -132,7 +132,7 @@ class Sidebar extends React.Component {
                                 {
                                     data && data.map((listWithSize, index) => (
                                         <a
-                                            href='/#'
+                                            href='/'
                                             key={index}
                                             className={
                                                 index === this.state.activeItem ? "list-group-item active" : "list-group-item"
