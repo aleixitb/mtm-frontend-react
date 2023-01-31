@@ -131,8 +131,7 @@ class Sidebar extends React.Component {
                             <ul className="list-group" id="sidebarUl">
                                 {
                                     data && data.map((listWithSize, index) => (
-                                        <a
-                                            href='/'
+                                        <div
                                             key={index}
                                             className={
                                                 index === this.state.activeItem ? "list-group-item active" : "list-group-item"
@@ -147,7 +146,7 @@ class Sidebar extends React.Component {
                                                 title={listWithSize.todoList.title}
                                                 size={listWithSize.size}
                                             />
-                                        </a>
+                                        </div>
                                     ))
                                 }
                             </ul>
