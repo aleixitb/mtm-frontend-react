@@ -5,9 +5,10 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
-        <Route exact path="/" element={<><header><Header /></header><main><Sidebar /></main></>} />
-      </Routes>
+      {/* <Routes>
+        <Route exact path="/" element={} />
+      </Routes> */}
+      <><header><Header /></header><main><Sidebar /></main></>
     </>
   );
 }
