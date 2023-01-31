@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mtm-frontend-react/static/css/main.c2cab247.css",
-    "main.js": "/mtm-frontend-react/static/js/main.eb5576df.js",
+    "main.js": "/mtm-frontend-react/static/js/main.ea53e2e4.js",
     "index.html": "/mtm-frontend-react/index.html",
     "main.c2cab247.css.map": "/mtm-frontend-react/static/css/main.c2cab247.css.map",
-    "main.eb5576df.js.map": "/mtm-frontend-react/static/js/main.eb5576df.js.map"
+    "main.ea53e2e4.js.map": "/mtm-frontend-react/static/js/main.ea53e2e4.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.eb5576df.js"
+    "static/js/main.ea53e2e4.js"
   ]
 }
