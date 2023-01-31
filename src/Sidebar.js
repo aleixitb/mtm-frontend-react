@@ -54,9 +54,7 @@ class Sidebar extends React.Component {
     }
 
     loadData() {
-        fetch("http://sv.garsemar.com:8080/todoitems/lists_all", {
-            referrerPolicy: "unsafe_url" 
-        })
+        fetch("http://sv.garsemar.com:8080/todoitems/lists_all")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
