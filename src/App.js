@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/gh-pages-url" element={<><header><Header /></header><main><Sidebar /></main></>} exact />
+        <Route exact path="/" element={<><header><Header /></header><main><Sidebar /></main></>} />
       </Routes>
     </>
   );
